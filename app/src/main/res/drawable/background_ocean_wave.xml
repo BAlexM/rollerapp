@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="1920dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1920">
+
+    <!-- Háttérszín -->
+    <path
+        android:fillColor="#001F3F"
+        android:pathData="M0,0h1080v1920h-1080z" />
+
+    <!-- Hullámok -->
+    <path
+        android:fillColor="#003366"
+        android:pathData="M0,1500c200,-100 400,100 600,0s400,-200 600,0v500h-1200z" />
+
+    <path
+        android:fillColor="#00509E"
+        android:pathData="M0,1600c250,-120 450,120 650,0s450,-250 650,0v400h-1300z" />
+
+</vector>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rollerapp">
+
+    <!-- Engedélyek -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!-- Alkalmazás -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.RollerApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:usesCleartextTraffic="true">
+
+        <!-- Induló aktivitás -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.RollerApp"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Bejelentkezési aktivitás -->
+        <activity android:name=".LoginActivity"
+            android:label="Bejelentkezés"
+            android:theme="@style/Theme.RollerApp"/>
+
+        <!-- Foglalási aktivitás -->
+        <activity android:name=".BookingActivity"
+            android:label="Foglalás"
+            android:theme="@style/Theme.RollerApp"/>
+
+        <!-- Profil aktivitás -->
+        <activity android:name=".ProfileActivity"
+            android:label="Profil"
+            android:theme="@style/Theme.RollerApp"/>
+
+        <!-- Események aktivitás -->
+        <activity android:name=".EventsActivity"
+            android:label="Események"
+            android:theme="@style/Theme.RollerApp"/>
+
+    </application>
+
+</manifest>

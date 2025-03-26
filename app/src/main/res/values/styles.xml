@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Alap téma -->
+    <style name="Theme.RollerApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Színbeállítások -->
+        <item name="colorPrimary">@color/neon_blue</item>
+        <item name="colorPrimaryVariant">@color/neon_green</item>
+        <item name="colorSecondary">@color/neon_purple</item>
+        <item name="android:statusBarColor">@color/dark_ocean</item>
+        <item name="android:navigationBarColor">@color/dark_ocean</item>
+
+        <!-- Sötét mód beállítások -->
+        <item name="android:windowBackground">@drawable/background_ocean_wave</item>
+
+        <!-- Szöveg és egyéb UI elemek -->
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+    </style>
+
+    <!-- További stílusok a gombokhoz, mezőkhöz stb. -->
+    <style name="ButtonStyle">
+        <item name="android:backgroundTint">#00FFFF</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>
