@@ -11,7 +11,7 @@
         <item name="android:navigationBarColor">@color/dark_ocean</item>
 
         <!-- Sötét mód beállítások -->
-        <item name="android:windowBackground">@drawable/background_ocean_wave</item>
+
 
         <!-- Szöveg és egyéb UI elemek -->
         <item name="android:textColorPrimary">@android:color/white</item>
